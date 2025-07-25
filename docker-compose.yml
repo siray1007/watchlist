@@ -1,0 +1,12 @@
+services:
+  watchlist:
+    image: siray/watchlist:latest
+    container_name: watchlist
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+
+# docker compose build = docker run -t siray/watchlist:latest .
+# docker compose up =  docker run --name watchlist -p  5000:5000  siray/watchlist:latest

@@ -1,0 +1,13 @@
+*.pyc
+*~
+__pycache__
+.DS_Store
+.env
+*.db
+htmlcov/
+.coverage
+venv
+env
+*.md
+docker-compose.yml
+Dockerfile
